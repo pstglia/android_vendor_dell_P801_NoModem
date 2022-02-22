@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright (C) 2012 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<CameraSettings>
+    <Profiles cameraId="0">
+        <sensorType value="SENSOR_TYPE_SOC"/> <!-- SENSOR_TYPE_SOC or SENSOR_TYPE_RAW -->
+        <orientation value="90"/> <!-- one of 0,90,180,270 -->
+        <supportedSnapshotSizes value="640x480,2048x1536,2560x1920"/>
+        <supportedPreviewSizes value="1280x720,720x480,640x480,640x360,320x240"/>
+        <supportedVideoSizes value="176x144,320x240,640x480,720x480,1280x720"/>
+        <videoPreviewSizePref value="640x480"/>
+        <supportedSceneModes value="auto"/>
+        <defaultFlashMode value="off"/>
+        <supportedFlashModes value="off"/>
+        <defaultFocusMode value="auto"/>
+        <supportedFocusModes value="auto"/>
+
+        <flipping value="" value_v=""/>
+        <maxEV value="0"/>
+        <minEV value="0"/>
+        <stepEV value="0"/>
+        <defaultIso value=""/>
+        <supportedIso value=""/>
+        <defaultAeMetering value=""/>
+        <supportedAeMetering value=""/>
+        <defaultAntibandingMode value=""/> 
+        <supportedAntibandingModes value=""/> 
+        <previewViaOverlay value="true"/>
+        <mSocAf value="true"/>
+        <supportedBurstLength value="1,3,5,9,10"/>
+    </Profiles>
+
+    <Profiles cameraId="1">
+        <sensorType value="SENSOR_TYPE_SOC"/> <!-- SENSOR_TYPE_SOC or SENSOR_TYPE_RAW -->
+        <facing value="CAMERA_FACING_FRONT"/> <!-- CAMERA_FACING_FRONT or CAMERA_FACING_BACK -->
+        <orientation value="270"/> <!-- one of 0,90,180,270 -->
+        <dvs value="false"/>
+        <flipping value="" value_v=""/>
+        <supportedSnapshotSizes value="640x480,1600x1200"/>
+        <supportedPreviewSizes value="720x480,640x480,640x360,320x240"/>
+        <supportedVideoSizes value="176x144,320x240,640x480,1280x720"/>
+        <videoPreviewSizePref value="640x480"/>
+        <mSocAf value="false"/>
+        <defaultAntibandingMode value="50hz"/> 
+        <supportedAntibandingModes value="50hz,60hz"/> 
+        <defaultBurstLength value=""/>
+        <supportedBurstLength value=""/>
+        <supportedSceneModes value=""/>
+        <defaultSceneMode value=""/>
+        <defaultFlashMode value="off"/>
+        <supportedFlashModes value="off"/>
+        <supportedEffectModes value="none"/>
+        <supportedIntelEffectModes value="none"/>
+        <supportedAwbModes value="auto"/>
+        <defaultAwbMode value="auto"/>
+        <maxEV value="0"/>
+        <minEV value="0"/>
+        <stepEV value="0"/>
+        <defaultIso value=""/>
+        <supportedIso value=""/>
+        <defaultAeMetering value=""/>
+        <supportedAeMetering value=""/>
+        <defaultFocusMode value="fixed"/>
+        <supportedFocusModes value="fixed"/>
+        <supportedAeLock value="false"/>
+        <supportedAwbLock value="false"/>
+    </Profiles>
+
+    <Common>
+        <subDevName value="/dev/v4l-subdev8"/>
+        <fileInject value="true"/>
+        <continuousCapture value="false"/>
+        <maxContinuousRawRingBuffer value="10"/>
+        <supportVideoSnapshot value="false"/>
+        <productName value="Venue 8"/>
+        <manufacturerName value="DELL"/>
+        <maxZoomFactor value="64"/>
+        <boardName value="redhookbay"/>
+    </Common>
+</CameraSettings>
+

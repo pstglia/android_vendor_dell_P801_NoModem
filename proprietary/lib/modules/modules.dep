@@ -1,0 +1,23 @@
+mac80211.ko: cfg80211.ko
+bcm4330.ko: cfg80211.ko
+bcm_bt_lpm.ko:
+atomisp-css2401a0_legacy_v21.ko: videobuf-vmalloc.ko videobuf-core.ko
+pvrsgx.ko: pnwdisp.ko
+atomisp-css2300.ko: videobuf-vmalloc.ko videobuf-core.ko
+ov5645.ko:
+st_drv.ko:
+videobuf-vmalloc.ko: videobuf-core.ko
+atomisp-css2400b0_v2.ko: videobuf-vmalloc.ko videobuf-core.ko
+vtsspp.ko:
+test_nx.ko:
+atomisp-css2400b0_v21.ko: videobuf-vmalloc.ko videobuf-core.ko
+hdmi_audio.ko: pnwdisp.ko
+sep3_10.ko:
+pnwdisp.ko:
+cfg80211.ko:
+apwr3_1.ko:
+pax.ko:
+atomisp-css2401a0_v21.ko: videobuf-vmalloc.ko videobuf-core.ko
+ov2675.ko:
+lm3554.ko:
+videobuf-core.ko:
