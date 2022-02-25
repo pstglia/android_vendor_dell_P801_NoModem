@@ -152,7 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/lib/arm/libvideoeditorplayer.so:system/lib/arm/libvideoeditorplayer.so \
     vendor/dell/P801_NoModem/proprietary/lib/arm/libwebrtc_audio_coding.so:system/lib/arm/libwebrtc_audio_coding.so \
     vendor/dell/P801_NoModem/proprietary/lib/arm/libwebviewchromium.so:system/lib/arm/libwebviewchromium.so \
-    vendor/dell/P801_NoModem/proprietary/lib/audio.routemanager.so:system/lib/audio.routemanager.so \
     vendor/dell/P801_NoModem/proprietary/lib/hw/audio.codec_offload.P801_NoModem.so:system/lib/hw/audio.codec_offload.P801_NoModem.so \
     vendor/dell/P801_NoModem/proprietary/lib/hw/audio.hdmi.P801_NoModem.so:system/lib/hw/audio.hdmi.P801_NoModem.so \
     vendor/dell/P801_NoModem/proprietary/lib/hw/audio.hs_usb.P801_NoModem.so:system/lib/hw/audio.hs_usb.P801_NoModem.so \
@@ -161,23 +160,16 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/lib/libevent-listener.so:system/lib/libevent-listener.so \
     vendor/dell/P801_NoModem/proprietary/lib/libinterface-provider.so:system/lib/libinterface-provider.so \
     vendor/dell/P801_NoModem/proprietary/lib/libinterface-provider-lib.so:system/lib/libinterface-provider-lib.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libmodem-audio-collection.so:system/lib/libmodem-audio-collection.so \
     vendor/dell/P801_NoModem/proprietary/lib/libparameter.so:system/lib/libparameter.so \
     vendor/dell/P801_NoModem/proprietary/lib/libproperty.so:system/lib/libproperty.so \
     vendor/dell/P801_NoModem/proprietary/lib/libmamgr-xmm.so:system/lib/libmamgr-xmm.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Audio/libaudience-subsystem.so:system/lib/parameter-framework-plugins/Audio/libaudience-subsystem.so \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Audio/libimc-subsystem.so:system/lib/parameter-framework-plugins/Audio/libimc-subsystem.so \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Audio/liblpe-subsystem.so:system/lib/parameter-framework-plugins/Audio/liblpe-subsystem.so \
-    vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Audio/libtinyalsa-subsystem.so:system/lib/parameter-framework-plugins/Audio/libtinyalsa-subsystem.so \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Fs/libfs-subsystem.so:system/lib/parameter-framework-plugins/Fs/libfs-subsystem.so \
-    vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Route/libroute-subsystem.so:system/lib/parameter-framework-plugins/Route/libroute-subsystem.so \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/System/libproperty-subsystem.so:system/lib/parameter-framework-plugins/System/libproperty-subsystem.so \
-    vendor/dell/P801_NoModem/proprietary/lib/soundfx/liblpepreprocessing.so:system/lib/soundfx/liblpepreprocessing.so \
     vendor/dell/P801_NoModem/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
-    vendor/dell/P801_NoModem/proprietary/vendor/etc/route_criteria.conf:system/vendor/etc/route_criteria.conf \
     vendor/dell/P801_NoModem/proprietary/bin/bd_prov:system/bin/bd_prov \
-    vendor/dell/P801_NoModem/proprietary/etc/firmware/BCM4343A0_001.001.034.0056.0224.hcd:system/etc/firmware/BCM4343A0_001.001.034.0056.0224.hcd \
     vendor/dell/P801_NoModem/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/dell/P801_NoModem/proprietary/etc/atomisp/00imx134.cpf:system/etc/atomisp/00imx134.cpf \
     vendor/dell/P801_NoModem/proprietary/etc/atomisp/00imx135-0-0x2-0x1.cpf:system/etc/atomisp/00imx135-0-0x2-0x1.cpf \
@@ -196,35 +188,7 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/isp_acc_postproc_css15.bin:system/etc/firmware/isp_acc_postproc_css15.bin \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/isp_acc_warping_css15.bin:system/etc/firmware/isp_acc_warping_css15.bin \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/shisp_css15.bin:system/etc/firmware/shisp_css15.bin \
-    vendor/dell/P801_NoModem/proprietary/lib/DataSet/ditSCidGen/msgchk.db:system/lib/DataSet/ditSCidGen/msgchk.db \
-    vendor/dell/P801_NoModem/proprietary/lib/DataSet/ISP/libxditk_isp.bin:system/lib/DataSet/ISP/libxditk_isp.bin \
-    vendor/dell/P801_NoModem/proprietary/lib/DIT_AT_BACK_HL.cfg:system/lib/DIT_AT_BACK_HL.cfg \
-    vendor/dell/P801_NoModem/proprietary/lib/DIT_AT_BACK_NORMAL.cfg:system/lib/DIT_AT_BACK_NORMAL.cfg \
-    vendor/dell/P801_NoModem/proprietary/lib/DIT_AT_BACK_NORMAL.cfg.fac:system/lib/DIT_AT_BACK_NORMAL.cfg.fac \
-    vendor/dell/P801_NoModem/proprietary/lib/DIT_AT_BACK_PREVIEW.cfg:system/lib/DIT_AT_BACK_PREVIEW.cfg \
-    vendor/dell/P801_NoModem/proprietary/lib/DIT_AT_BACK_VIDEO.cfg:system/lib/DIT_AT_BACK_VIDEO.cfg \
-    vendor/dell/P801_NoModem/proprietary/lib/DIT_AT_FRONT_NORMAL.cfg:system/lib/DIT_AT_FRONT_NORMAL.cfg \
-    vendor/dell/P801_NoModem/proprietary/lib/DIT_AT_FRONT_NORMAL.cfg.fac:system/lib/DIT_AT_FRONT_NORMAL.cfg.fac \
-    vendor/dell/P801_NoModem/proprietary/lib/DIT_AT_FRONT_NORMAL_ID4.cfg:system/lib/DIT_AT_FRONT_NORMAL_ID4.cfg \
-    vendor/dell/P801_NoModem/proprietary/lib/DIT_AT_FRONT_PRE.cfg:system/lib/DIT_AT_FRONT_PRE.cfg \
-    vendor/dell/P801_NoModem/proprietary/lib/DIT_AT_FRONT_PRE_ID4.cfg:system/lib/DIT_AT_FRONT_PRE_ID4.cfg \
-    vendor/dell/P801_NoModem/proprietary/lib/DIT_AT_FRONT_VIDEO.cfg:system/lib/DIT_AT_FRONT_VIDEO.cfg \
-    vendor/dell/P801_NoModem/proprietary/lib/DIT_AT_FRONT_VIDEO_ID4.cfg:system/lib/DIT_AT_FRONT_VIDEO_ID4.cfg \
-    vendor/dell/P801_NoModem/proprietary/lib/ditCL.bin:system/lib/ditCL.bin \
-    vendor/dell/P801_NoModem/proprietary/lib/libarcsoft_3dnr.so:system/lib/libarcsoft_3dnr.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libarcsoft_effect.so:system/lib/libarcsoft_effect.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libarcsoft_FaceTracking.so:system/lib/libarcsoft_FaceTracking.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libarcsoft_FlawlessFace.so:system/lib/libarcsoft_FlawlessFace.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libarcsoft_functions.so:system/lib/libarcsoft_functions.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libarcsoft_hdr.so:system/lib/libarcsoft_hdr.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libarcsoft_nighthawk.so:system/lib/libarcsoft_nighthawk.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libarcsoft_videoStabilizer.so:system/lib/libarcsoft_videoStabilizer.so \
     vendor/dell/P801_NoModem/proprietary/lib/libasfparser.so:system/lib/libasfparser.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libcamera_defocus.so:system/lib/libcamera_defocus.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libcamera_pano.so:system/lib/libcamera_pano.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libcameraap.so:system/lib/libcameraap.so \
     vendor/dell/P801_NoModem/proprietary/lib/libia_aiq.so:system/lib/libia_aiq.so \
     vendor/dell/P801_NoModem/proprietary/lib/libia_aiq_cp.so:system/lib/libia_aiq_cp.so \
     vendor/dell/P801_NoModem/proprietary/lib/libia_cmc_parser.so:system/lib/libia_cmc_parser.so \
@@ -235,24 +199,15 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/lib/libia_mkn.so:system/lib/libia_mkn.so \
     vendor/dell/P801_NoModem/proprietary/lib/libia_nvm.so:system/lib/libia_nvm.so \
     vendor/dell/P801_NoModem/proprietary/lib/libia_panorama.so:system/lib/libia_panorama.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libintlc.so:system/lib/libintlc.so \
     vendor/dell/P801_NoModem/proprietary/lib/libmfldadvci.so:system/lib/libmfldadvci.so \
     vendor/dell/P801_NoModem/proprietary/lib/libmixvbp.so:system/lib/libmixvbp.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libmix_imagedecoder.so:system/lib/libmix_imagedecoder.so \
     vendor/dell/P801_NoModem/proprietary/lib/libmix_imageencoder.so:system/lib/libmix_imageencoder.so \
     vendor/dell/P801_NoModem/proprietary/lib/libsvml.so:system/lib/libsvml.so \
     vendor/dell/P801_NoModem/proprietary/lib/libtbd.so:system/lib/libtbd.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libxditk_AT.so:system/lib/libxditk_AT.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libxditk_DIT_CloverTrailPlus.so:system/lib/libxditk_DIT_CloverTrailPlus.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libxditk_DIT_Manager.so:system/lib/libxditk_DIT_Manager.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
     vendor/dell/P801_NoModem/proprietary/lib/hw/camera.vendor.P801_NoModem.so:system/lib/hw/camera.vendor.P801_NoModem.so \
-    vendor/dell/P801_NoModem/proprietary/media/cameraConfig/style.cng:system/media/cameraConfig/style.cng \
     vendor/dell/P801_NoModem/proprietary/vendor/firmware/00imx135-0-0x4-0.drvb:system/vendor/firmware/00imx135-0-0x4-0.drvb \
     vendor/dell/P801_NoModem/proprietary/vendor/firmware/00ov8830-0-0x2-0.drvb:system/vendor/firmware/00ov8830-0-0x2-0.drvb \
     vendor/dell/P801_NoModem/proprietary/vendor/firmware/01s5k8aay.drvb:system/vendor/firmware/01s5k8aay.drvb \
-    vendor/dell/P801_NoModem/proprietary/lib/libkeymaster.so:system/lib/libkeymaster.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/dell/P801_NoModem/proprietary/lib/hw/keystore.vendor.clovertrail.so:system/lib/hw/keystore.vendor.clovertrail.so \
     vendor/dell/P801_NoModem/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/dell/P801_NoModem/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
@@ -275,35 +230,23 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX544_115.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX544_115.so \
     vendor/dell/P801_NoModem/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX544_115.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX544_115.so \
     vendor/dell/P801_NoModem/proprietary/vendor/lib/hw/gralloc.P801_NoModem.so:system/vendor/lib/hw/gralloc.P801_NoModem.so \
-    vendor/dell/P801_NoModem/proprietary/vendor/lib/hw/memtrack.P801_NoModem.so:system/vendor/lib/hw/memtrack.P801_NoModem.so \
-    vendor/dell/P801_NoModem/proprietary/bin/bcu_cpufreqrel:system/bin/bcu_cpufreqrel \
     vendor/dell/P801_NoModem/proprietary/bin/fg_conf:system/bin/fg_conf \
-    vendor/dell/P801_NoModem/proprietary/bin/nvm_server:system/bin/nvm_server \
-    vendor/dell/P801_NoModem/proprietary/bin/mmgr:system/bin/mmgr \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/aac_dec_1.bin:system/etc/firmware/aac_dec_1.bin \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/fw_sst_08e7.bin:system/etc/firmware/fw_sst_08e7.bin \
-    vendor/dell/P801_NoModem/proprietary/etc/firmware/if.bin:system/etc/firmware/if.bin \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/mp3_dec_1.bin:system/etc/firmware/mp3_dec_1.bin \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/msvdx_fw_mfld_DE2.0.bin:system/etc/firmware/msvdx_fw_mfld_DE2.0.bin \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/s3202_gff.img:system/etc/firmware/s3202_gff.img \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/s3202_ogs.img:system/etc/firmware/s3202_ogs.img \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/topazsc_fw.bin:system/etc/firmware/topazsc_fw.bin \
-    vendor/dell/P801_NoModem/proprietary/etc/firmware/vpimg_es325.bin:system/etc/firmware/vpimg_es325.bin \
-    vendor/dell/P801_NoModem/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/dell/P801_NoModem/proprietary/lib/hw/gps.P801_NoModem.so:system/lib/hw/gps.P801_NoModem.so \
-    vendor/dell/P801_NoModem/proprietary/etc/binfmt_misc/arm_dyn:system/etc/binfmt_misc/arm_dyn \
-    vendor/dell/P801_NoModem/proprietary/etc/binfmt_misc/arm_exe:system/etc/binfmt_misc/arm_exe \
     vendor/dell/P801_NoModem/proprietary/bin/houdini:system/bin/houdini \
     vendor/dell/P801_NoModem/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
     vendor/dell/P801_NoModem/proprietary/bin/msvdx_bin:system/bin/msvdx_bin \
     vendor/dell/P801_NoModem/proprietary/bin/topaz_bin:system/bin/topaz_bin \
-    vendor/dell/P801_NoModem/proprietary/lib/hw/hwcomposer.clovertrail.so:system/lib/hw/hwcomposer.clovertrail.so \
     vendor/dell/P801_NoModem/proprietary/lib/libhwcwidi.so:system/lib/libhwcwidi.so \
     vendor/dell/P801_NoModem/proprietary/lib/libintelmetadatabuffer.so:system/lib/libintelmetadatabuffer.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libmdp_omx_core.so:system/lib/libmdp_omx_core.so \
     vendor/dell/P801_NoModem/proprietary/lib/libmixvbp.so:system/lib/libmixvbp.so \
     vendor/dell/P801_NoModem/proprietary/lib/libmixvbp_h264.so:system/lib/libmixvbp_h264.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libmixvbp_h264secure.so:system/lib/libmixvbp_h264secure.so \
     vendor/dell/P801_NoModem/proprietary/lib/libmixvbp_mpeg4.so:system/lib/libmixvbp_mpeg4.so \
     vendor/dell/P801_NoModem/proprietary/lib/libmixvbp_vc1.so:system/lib/libmixvbp_vc1.so \
     vendor/dell/P801_NoModem/proprietary/lib/libOMXVideoDecoderAVC.so:system/lib/libOMXVideoDecoderAVC.so \
@@ -313,20 +256,10 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/lib/libmmgrcli.so:system/lib/libmmgrcli.so \
     vendor/dell/P801_NoModem/proprietary/lib/libmmgr_cnx.so:system/lib/libmmgr_cnx.so \
     vendor/dell/P801_NoModem/proprietary/lib/libmmgr_utils.so:system/lib/libmmgr_utils.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libmodemupdate.so:system/lib/libmodemupdate.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libmodem-audio-collection.so:system/lib/libmodem-audio-collection.so \
     vendor/dell/P801_NoModem/proprietary/lib/libtcs.so:system/lib/libtcs.so \
-    vendor/dell/P801_NoModem/proprietary/lib/librapid-ril-core.so:system/lib/librapid-ril-core.so \
-    vendor/dell/P801_NoModem/proprietary/lib/librapid-ril-util.so:system/lib/librapid-ril-util.so \
-    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/ParameterFrameworkConfiguration.ER.xml:system/etc/parameter-framework/ParameterFrameworkConfiguration.ER.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/ParameterFrameworkConfigurationRoute.xml:system/etc/parameter-framework/ParameterFrameworkConfigurationRoute.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/ParameterFrameworkConfiguration.SR.xml:system/etc/parameter-framework/ParameterFrameworkConfiguration.SR.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/ParameterFrameworkConfigurationVibrator.xml:system/etc/parameter-framework/ParameterFrameworkConfigurationVibrator.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/ParameterFrameworkConfiguration.xml:system/etc/parameter-framework/ParameterFrameworkConfiguration.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Settings/Audio/AudioConfigurableDomains.ER.xml:system/etc/parameter-framework/Settings/Audio/AudioConfigurableDomains.ER.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Settings/Audio/AudioConfigurableDomains.SR.xml:system/etc/parameter-framework/Settings/Audio/AudioConfigurableDomains.SR.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml:system/etc/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Settings/Route/RouteConfigurableDomains.xml:system/etc/parameter-framework/Settings/Route/RouteConfigurableDomains.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Settings/Vibrator/VibratorConfigurableDomains.xml:system/etc/parameter-framework/Settings/Vibrator/VibratorConfigurableDomains.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Audio/AudioClass.xml:system/etc/parameter-framework/Structure/Audio/AudioClass.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Audio/ConfigurationSubsystem.xml:system/etc/parameter-framework/Structure/Audio/ConfigurationSubsystem.xml \
@@ -334,91 +267,12 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Audio/IntelSSPSubsystem.xml:system/etc/parameter-framework/Structure/Audio/IntelSSPSubsystem.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Audio/LPEMixerSubsystem.xml:system/etc/parameter-framework/Structure/Audio/LPEMixerSubsystem.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Audio/LPESubsystem.xml:system/etc/parameter-framework/Structure/Audio/LPESubsystem.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Audio/Realtek_RT5647.xml:system/etc/parameter-framework/Structure/Audio/Realtek_RT5647.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Audio/SysfsPmdownTimeSubsystem.xml:system/etc/parameter-framework/Structure/Audio/SysfsPmdownTimeSubsystem.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Route/DebugFsSubsystem.xml:system/etc/parameter-framework/Structure/Route/DebugFsSubsystem.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Route/RouteClass.xml:system/etc/parameter-framework/Structure/Route/RouteClass.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Route/RouteSubsystem-CommonCriteria.xml:system/etc/parameter-framework/Structure/Route/RouteSubsystem-CommonCriteria.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Route/RouteSubsystem-RoutesTypes.xml:system/etc/parameter-framework/Structure/Route/RouteSubsystem-RoutesTypes.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Route/RouteSubsystem.xml:system/etc/parameter-framework/Structure/Route/RouteSubsystem.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Vibrator/MiscConfigurationSubsystem.xml:system/etc/parameter-framework/Structure/Vibrator/MiscConfigurationSubsystem.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Vibrator/SysfsVibratorClass.xml:system/etc/parameter-framework/Structure/Vibrator/SysfsVibratorClass.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Vibrator/SysfsVibratorSubsystem.xml:system/etc/parameter-framework/Structure/Vibrator/SysfsVibratorSubsystem.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/mamgr/xmm1.xml:system/etc/mamgr/xmm1.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/rril/repository.txt:system/etc/rril/repository.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/apb_config.txt:system/etc/telephony/apb_config.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/channels_ctp.xml:system/etc/telephony/channels_ctp.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/channels_default.xml:system/etc/telephony/channels_default.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/channels_dsda.xml:system/etc/telephony/channels_dsda.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/channels_dsds.xml:system/etc/telephony/channels_dsds.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_2230_conf_1.xml:system/etc/telephony/mmgr_2230_conf_1.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_6360_conf_1.xml:system/etc/telephony/mmgr_6360_conf_1.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_6360_conf_2.xml:system/etc/telephony/mmgr_6360_conf_2.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_7160_conf_1.xml:system/etc/telephony/mmgr_7160_conf_1.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_7160_conf_2.xml:system/etc/telephony/mmgr_7160_conf_2.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_7160_conf_3.xml:system/etc/telephony/mmgr_7160_conf_3.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_7160_conf_5.xml:system/etc/telephony/mmgr_7160_conf_5.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_7160_conf_7.xml:system/etc/telephony/mmgr_7160_conf_7.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_7160_conf_8.xml:system/etc/telephony/mmgr_7160_conf_8.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_7260_conf_1.xml:system/etc/telephony/mmgr_7260_conf_1.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_7260_conf_2.xml:system/etc/telephony/mmgr_7260_conf_2.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_7260_conf_3.xml:system/etc/telephony/mmgr_7260_conf_3.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_7260_conf_4.xml:system/etc/telephony/mmgr_7260_conf_4.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_7260_conf_5.xml:system/etc/telephony/mmgr_7260_conf_5.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_7260_conf_6.xml:system/etc/telephony/mmgr_7260_conf_6.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_7260_conf_7.xml:system/etc/telephony/mmgr_7260_conf_7.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/mmgr_fw_default.xml:system/etc/telephony/mmgr_fw_default.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/rril_2230_conf_1.txt:system/etc/telephony/rril_2230_conf_1.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/rril_6360_conf_1.txt:system/etc/telephony/rril_6360_conf_1.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/rril_6360_conf_2.txt:system/etc/telephony/rril_6360_conf_2.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/rril_7160_conf_1.txt:system/etc/telephony/rril_7160_conf_1.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/rril_7160_conf_2.txt:system/etc/telephony/rril_7160_conf_2.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/rril_7160_conf_3.txt:system/etc/telephony/rril_7160_conf_3.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/rril_7160_conf_4.txt:system/etc/telephony/rril_7160_conf_4.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/rril_7260_conf_1_ATT.txt:system/etc/telephony/rril_7260_conf_1_ATT.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/rril_7260_conf_1.txt:system/etc/telephony/rril_7260_conf_1.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/rril_7260_conf_2_ATT.txt:system/etc/telephony/rril_7260_conf_2_ATT.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/rril_7260_conf_2.txt:system/etc/telephony/rril_7260_conf_2.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/rril_7260_conf_3.txt:system/etc/telephony/rril_7260_conf_3.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/rril_7260_conf_4.txt:system/etc/telephony/rril_7260_conf_4.txt \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM6360_CONF_1.xml:system/etc/telephony/XMM6360_CONF_1.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM6360_CONF_3.xml:system/etc/telephony/XMM6360_CONF_3.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7160_CONF_1.xml:system/etc/telephony/XMM7160_CONF_1.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7160_CONF_2.xml:system/etc/telephony/XMM7160_CONF_2.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7160_CONF_3.xml:system/etc/telephony/XMM7160_CONF_3.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7160_CONF_5.xml:system/etc/telephony/XMM7160_CONF_5.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7160_CONF_6.xml:system/etc/telephony/XMM7160_CONF_6.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7160_CONF_7.xml:system/etc/telephony/XMM7160_CONF_7.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7160_CONF_8.xml:system/etc/telephony/XMM7160_CONF_8.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7260_CONF_10.xml:system/etc/telephony/XMM7260_CONF_10.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7260_CONF_11.xml:system/etc/telephony/XMM7260_CONF_11.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7260_CONF_12.xml:system/etc/telephony/XMM7260_CONF_12.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7260_CONF_1.xml:system/etc/telephony/XMM7260_CONF_1.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7260_CONF_3.xml:system/etc/telephony/XMM7260_CONF_3.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7260_CONF_6.xml:system/etc/telephony/XMM7260_CONF_6.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7260_CONF_7.xml:system/etc/telephony/XMM7260_CONF_7.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7260_CONF_8.xml:system/etc/telephony/XMM7260_CONF_8.xml \
-    vendor/dell/P801_NoModem/proprietary/etc/telephony/XMM7260_CONF_9.xml:system/etc/telephony/XMM7260_CONF_9.xml \
-    vendor/dell/P801_NoModem/proprietary/vendor/firmware/telephony/1024_6360_family.tlv:system/vendor/firmware/telephony/1024_6360_family.tlv \
-    vendor/dell/P801_NoModem/proprietary/vendor/firmware/telephony/1024_max_tx.tlv:system/vendor/firmware/telephony/1024_max_tx.tlv \
-    vendor/dell/P801_NoModem/proprietary/vendor/firmware/telephony/2048_6360_family.tlv:system/vendor/firmware/telephony/2048_6360_family.tlv \
-    vendor/dell/P801_NoModem/proprietary/vendor/firmware/telephony/2048_max_tx.tlv:system/vendor/firmware/telephony/2048_max_tx.tlv \
-    vendor/dell/P801_NoModem/proprietary/vendor/firmware/telephony/hash:system/vendor/firmware/telephony/hash \
-    vendor/dell/P801_NoModem/proprietary/vendor/firmware/telephony/mmgr_upgrade.sh:system/vendor/firmware/telephony/mmgr_upgrade.sh \
-    vendor/dell/P801_NoModem/proprietary/vendor/firmware/telephony/XMM_7160_REV35_1538.00_V1.3_signed_MIPI_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_7160_REV35_1538.00_V1.3_signed_MIPI_FLASHLESS.fls \
-    vendor/dell/P801_NoModem/proprietary/bin/akmd09911:system/bin/akmd09911 \
-    vendor/dell/P801_NoModem/proprietary/bin/ZE500CL_GC2155_CONFIG:system/bin/ZE500CL_GC2155_CONFIG \
-    vendor/dell/P801_NoModem/proprietary/bin/ZE500CL_HM2051_CONFIG:system/bin/ZE500CL_HM2051_CONFIG \
-    vendor/dell/P801_NoModem/proprietary/bin/ZE500CL_T4K35_CONFIG:system/bin/ZE500CL_T4K35_CONFIG \
     vendor/dell/P801_NoModem/proprietary/lib/hw/sensors.P801_NoModem.so:system/lib/hw/sensors.P801_NoModem.so \
-    vendor/dell/P801_NoModem/proprietary/lib/hw/sensors.AKM.P801_NoModem.so:system/lib/hw/sensors.AKM.P801_NoModem.so \
-    vendor/dell/P801_NoModem/proprietary/lib/hw/sensors.PS_ALS.P801_NoModem.so:system/lib/hw/sensors.PS_ALS.P801_NoModem.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libcmdthread.so:system/lib/libcmdthread.so \
     vendor/dell/P801_NoModem/proprietary/lib/modules/videobuf-core.ko:system/lib/modules/videobuf-core.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/videobuf-dma-contig.ko:system/lib/modules/videobuf-dma-contig.ko \
     vendor/dell/P801_NoModem/proprietary/lib/modules/videobuf-vmalloc.ko:system/lib/modules/videobuf-vmalloc.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/videobuf2-core.ko:system/lib/modules/videobuf2-core.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/videobuf2-memops.ko:system/lib/modules/videobuf2-memops.ko \
     vendor/dell/P801_NoModem/proprietary/lib/modules/ov5645.ko:system/lib/modules/ov5645.ko \
     vendor/dell/P801_NoModem/proprietary/lib/modules/ov2675.ko:system/lib/modules/ov2675.ko \
     vendor/dell/P801_NoModem/proprietary/lib/modules/atomisp-css2300.ko:system/lib/modules/atomisp-css2300.ko \
@@ -426,9 +280,5 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/lib/modules/pnwdisp.ko:system/lib/modules/pnwdisp.ko \
     vendor/dell/P801_NoModem/proprietary/lib/modules/pvrsgx.ko:system/lib/modules/pvrsgx.ko \
     vendor/dell/P801_NoModem/proprietary/lib/modules/hdmi_audio.ko:system/lib/modules/hdmi_audio.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/matrix.ko:system/lib/modules/matrix.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/rmi4.ko:system/lib/modules/rmi4.ko \
     vendor/dell/P801_NoModem/proprietary/lib/modules/cfg80211.ko:system/lib/modules/cfg80211.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/fmdrv_chr.ko:system/lib/modules/fmdrv_chr.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/ipv6.ko:system/lib/modules/ipv6.ko \
     vendor/dell/P801_NoModem/proprietary/lib/libstlport.so:system/lib/libstlport.so
