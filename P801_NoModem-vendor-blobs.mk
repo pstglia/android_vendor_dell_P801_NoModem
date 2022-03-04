@@ -270,14 +270,4 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Vibrator/SysfsVibratorClass.xml:system/etc/parameter-framework/Structure/Vibrator/SysfsVibratorClass.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Vibrator/SysfsVibratorSubsystem.xml:system/etc/parameter-framework/Structure/Vibrator/SysfsVibratorSubsystem.xml \
     vendor/dell/P801_NoModem/proprietary/lib/hw/sensors.P801_NoModem.so:system/lib/hw/sensors.P801_NoModem.so \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/videobuf-core.ko:system/lib/modules/videobuf-core.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/videobuf-vmalloc.ko:system/lib/modules/videobuf-vmalloc.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/ov5645.ko:system/lib/modules/ov5645.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/ov2675.ko:system/lib/modules/ov2675.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/atomisp-css2300.ko:system/lib/modules/atomisp-css2300.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/bcm_bt_lpm.ko:system/lib/modules/bcm_bt_lpm.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/pnwdisp.ko:system/lib/modules/pnwdisp.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/pvrsgx.ko:system/lib/modules/pvrsgx.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/hdmi_audio.ko:system/lib/modules/hdmi_audio.ko \
-    vendor/dell/P801_NoModem/proprietary/lib/modules/cfg80211.ko:system/lib/modules/cfg80211.ko \
     vendor/dell/P801_NoModem/proprietary/lib/libstlport.so:system/lib/libstlport.so
