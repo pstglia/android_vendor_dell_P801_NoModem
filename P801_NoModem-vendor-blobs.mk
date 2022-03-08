@@ -159,7 +159,6 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/lib/libevent-listener.so:system/lib/libevent-listener.so \
     vendor/dell/P801_NoModem/proprietary/lib/libinterface-provider.so:system/lib/libinterface-provider.so \
     vendor/dell/P801_NoModem/proprietary/lib/libinterface-provider-lib.so:system/lib/libinterface-provider-lib.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libparameter.so:system/lib/libparameter.so \
     vendor/dell/P801_NoModem/proprietary/lib/libproperty.so:system/lib/libproperty.so \
     vendor/dell/P801_NoModem/proprietary/lib/libmamgr-xmm.so:system/lib/libmamgr-xmm.so \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Audio/libaudience-subsystem.so:system/lib/parameter-framework-plugins/Audio/libaudience-subsystem.so \
@@ -270,4 +269,12 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Vibrator/SysfsVibratorClass.xml:system/etc/parameter-framework/Structure/Vibrator/SysfsVibratorClass.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Vibrator/SysfsVibratorSubsystem.xml:system/etc/parameter-framework/Structure/Vibrator/SysfsVibratorSubsystem.xml \
     vendor/dell/P801_NoModem/proprietary/lib/hw/sensors.P801_NoModem.so:system/lib/hw/sensors.P801_NoModem.so \
+    vendor/dell/P801_NoModem/proprietary/lib/libkeymaster.so:system/lib/libkeymaster.so \
+    vendor/dell/P801_NoModem/proprietary/vendor/lib/libasound.so:system/lib/libasound.so \
+    vendor/dell/P801_NoModem/proprietary/etc/firmware/OV5645_AF_FW.bin:system/etc/firmware/OV5645_AF_FW.bin \
+    vendor/dell/P801_NoModem/proprietary/lib/libstock_crypto.so:system/lib/libstock_crypto.so \
+    vendor/dell/P801_NoModem/proprietary/lib/libsepipt.so:system/lib/libsepipt.so \
+    vendor/dell/P801_NoModem/proprietary/lib/hw/hwcomposer.clovertrail.so:system/vendor/lib/hw/hwcomposer.clovertrail.so \
+    vendor/dell/P801_NoModem/proprietary/lib/libmodem-audio-collection.so:system/vendor/lib/libmodem-audio-collection.so \
+    vendor/dell/P801_NoModem/proprietary/lib/libparameter.so:system/lib/libparameter.so \
     vendor/dell/P801_NoModem/proprietary/lib/libstlport.so:system/lib/libstlport.so
