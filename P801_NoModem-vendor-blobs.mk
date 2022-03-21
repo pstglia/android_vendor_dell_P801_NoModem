@@ -272,6 +272,9 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/lib/libkeymaster.so:system/lib/libkeymaster.so \
     vendor/dell/P801_NoModem/proprietary/vendor/lib/libasound.so:system/lib/libasound.so \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/OV5645_AF_FW.bin:system/etc/firmware/OV5645_AF_FW.bin \
+    vendor/dell/P801_NoModem/proprietary/etc/firmware/BCM4330.hcd:system/etc/firmware/BCM4330.hcd \
+    vendor/dell/P801_NoModem/proprietary/etc/firmware/bcmdhd_aob.cal:system/etc/firmware/bcmdhd_aob.cal \
+    vendor/dell/P801_NoModem/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/dell/P801_NoModem/proprietary/lib/libstock_crypto.so:system/lib/libstock_crypto.so \
     vendor/dell/P801_NoModem/proprietary/lib/libsepipt.so:system/lib/libsepipt.so \
     vendor/dell/P801_NoModem/proprietary/lib/hw/hwcomposer.clovertrail.so:system/vendor/lib/hw/hwcomposer.clovertrail.so \
