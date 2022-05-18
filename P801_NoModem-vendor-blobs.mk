@@ -255,6 +255,7 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/lib/libmmgr_cnx.so:system/lib/libmmgr_cnx.so \
     vendor/dell/P801_NoModem/proprietary/lib/libmmgr_utils.so:system/lib/libmmgr_utils.so \
     vendor/dell/P801_NoModem/proprietary/lib/libtcs.so:system/lib/libtcs.so \
+    vendor/dell/P801_NoModem/proprietary/lib/libaudiohalutils.so:system/lib/libaudiohalutils.so \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/ParameterFrameworkConfigurationVibrator.xml:system/etc/parameter-framework/ParameterFrameworkConfigurationVibrator.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/ParameterFrameworkConfiguration.xml:system/etc/parameter-framework/ParameterFrameworkConfiguration.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml:system/etc/parameter-framework/Settings/Audio/AudioConfigurableDomains.xml \
