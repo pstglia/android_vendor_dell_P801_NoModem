@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/Subsystem.xsd" Name="IMC" Type="XMM" Endianness="Little" Mapping="ModemName:xmm1,LibraryName:libmamgr-xmm.so">
+<Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Schemas/Subsystem.xsd" Name="IMC" Type="IMC" Endianness="Little">
     <ComponentLibrary>
         <!-- GENERAL -->
         <ComponentType Name="DESTINATION_TYPE">
@@ -78,8 +78,10 @@
             <Component Name="RX" Type="I2S_SOURCE" Mapping="Direction:src"/>
             <Component Name="TX" Type="I2S_DESTINATION" Mapping="Direction:dst"/>
         </ComponentType>
-        <!-- SPEECH COMPONENT LIBRARY -->
-        <ComponentType Name="SPEECH_TX_TYPE" Extends="DESTINATION_TYPE">
+        <!-- SPEECH COMPONENT LIBRARY
+             Note : Although SPEECH RX component can be enabled/disabled,
+             as per IMC recommendations, we should not touch this parameter -->
+        <ComponentType Name="SPEECH_TYPE" Extends="DESTINATION_TYPE">
             <EnumParameter Name="MODE" Size="8" Mapping="SpeechConfig">
                 <ValuePair Literal="NETWORK" Numerical="0"/>
                 <ValuePair Literal="USER_DEFINED_1" Numerical="1"/>
@@ -89,12 +91,9 @@
                 <ValuePair Literal="USER_DEFINED_5" Numerical="5"/>
             </EnumParameter>
         </ComponentType>
-        <ComponentType Name="SPEECH_RX_TYPE" Extends="SPEECH_TX_TYPE">
-            <BooleanParameter Name="ENABLED" Mapping="EnableSource"/>
-        </ComponentType>
         <ComponentType Name="SPEECH_PORT">
-            <Component Name="RX" Type="SPEECH_RX_TYPE" Mapping="Direction:src"/>
-            <Component Name="TX" Type="SPEECH_TX_TYPE" Mapping="Direction:dst"/>
+            <Component Name="RX" Type="SPEECH_TYPE" Mapping="Direction:src"/>
+            <Component Name="TX" Type="SPEECH_TYPE" Mapping="Direction:dst"/>
         </ComponentType>
         <!-- ANALOG COMPONENT LIBRARY -->
         <ComponentType Name="ANALOG_OUT" Extends="DESTINATION_TYPE">
@@ -205,6 +204,6 @@
         </ComponentType>
     </ComponentLibrary>
     <InstanceDefinition>
-        <Component Name="SOUND_CARD" Type="SOUND_CARD"/>
+        <Component Name="SOUND_CARD" Type="SOUND_CARD" Mapping="Card:modem"/>
     </InstanceDefinition>
 </Subsystem>

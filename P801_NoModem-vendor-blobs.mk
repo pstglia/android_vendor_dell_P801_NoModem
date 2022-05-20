@@ -164,6 +164,8 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Audio/libaudience-subsystem.so:system/lib/parameter-framework-plugins/Audio/libaudience-subsystem.so \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Audio/libimc-subsystem.so:system/lib/parameter-framework-plugins/Audio/libimc-subsystem.so \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Audio/liblpe-subsystem.so:system/lib/parameter-framework-plugins/Audio/liblpe-subsystem.so \
+    vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Audio/libtinyamixer-subsystem.so:system/lib/parameter-framework-plugins/Audio/libtinyamixer-subsystem.so \
+    vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Audio/libtinyalsactl-subsystem.so:system/lib/parameter-framework-plugins/Audio/libtinyalsactl-subsystem.so \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Fs/libfs-subsystem.so:system/lib/parameter-framework-plugins/Fs/libfs-subsystem.so \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/System/libproperty-subsystem.so:system/lib/parameter-framework-plugins/System/libproperty-subsystem.so \
     vendor/dell/P801_NoModem/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
@@ -267,10 +269,13 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Audio/LPEMixerSubsystem.xml:system/etc/parameter-framework/Structure/Audio/LPEMixerSubsystem.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Audio/LPESubsystem.xml:system/etc/parameter-framework/Structure/Audio/LPESubsystem.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Audio/SysfsPmdownTimeSubsystem.xml:system/etc/parameter-framework/Structure/Audio/SysfsPmdownTimeSubsystem.xml \
+    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Audio/AudienceSubsystem.xml:system/etc/parameter-framework/Structure/Audio/AudienceSubsystem.xml \
+    vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Audio/CirrusLogicSubsystem.xml:system/etc/parameter-framework/Structure/Audio/CirrusLogicSubsystem.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Vibrator/SysfsVibratorClass.xml:system/etc/parameter-framework/Structure/Vibrator/SysfsVibratorClass.xml \
     vendor/dell/P801_NoModem/proprietary/etc/parameter-framework/Structure/Vibrator/SysfsVibratorSubsystem.xml:system/etc/parameter-framework/Structure/Vibrator/SysfsVibratorSubsystem.xml \
     vendor/dell/P801_NoModem/proprietary/lib/hw/sensors.P801_NoModem.so:system/lib/hw/sensors.P801_NoModem.so \
     vendor/dell/P801_NoModem/proprietary/lib/libkeymaster.so:system/lib/libkeymaster.so \
+    vendor/dell/P801_NoModem/proprietary/lib/libaudience-manager.so:system/lib/libaudience-manager.so \
     vendor/dell/P801_NoModem/proprietary/vendor/lib/libasound.so:system/lib/libasound.so \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/OV5645_AF_FW.bin:system/etc/firmware/OV5645_AF_FW.bin \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/BCM4330.hcd:system/etc/firmware/BCM4330.hcd \
