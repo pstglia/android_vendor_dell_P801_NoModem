@@ -161,6 +161,8 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/lib/libinterface-provider-lib.so:system/lib/libinterface-provider-lib.so \
     vendor/dell/P801_NoModem/proprietary/lib/libproperty.so:system/lib/libproperty.so \
     vendor/dell/P801_NoModem/proprietary/lib/libmamgr-xmm.so:system/lib/libmamgr-xmm.so \
+    vendor/dell/P801_NoModem/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
+    vendor/dell/P801_NoModem/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Audio/libaudience-subsystem.so:system/lib/parameter-framework-plugins/Audio/libaudience-subsystem.so \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Audio/libimc-subsystem.so:system/lib/parameter-framework-plugins/Audio/libimc-subsystem.so \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/Audio/liblpe-subsystem.so:system/lib/parameter-framework-plugins/Audio/liblpe-subsystem.so \
