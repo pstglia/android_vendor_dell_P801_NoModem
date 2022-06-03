@@ -241,6 +241,7 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/s3202_ogs.img:system/etc/firmware/s3202_ogs.img \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/topazsc_fw.bin:system/etc/firmware/topazsc_fw.bin \
     vendor/dell/P801_NoModem/proprietary/lib/hw/gps.P801_NoModem.so:system/lib/hw/gps.P801_NoModem.so \
+    vendor/dell/P801_NoModem/proprietary/bin/gpsd:system/bin/gpsd \
     vendor/dell/P801_NoModem/proprietary/bin/houdini:system/bin/houdini \
     vendor/dell/P801_NoModem/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
     vendor/dell/P801_NoModem/proprietary/bin/msvdx_bin:system/bin/msvdx_bin \
