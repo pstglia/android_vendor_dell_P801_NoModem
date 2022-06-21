@@ -151,6 +151,8 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/lib/arm/libvideoeditorplayer.so:system/lib/arm/libvideoeditorplayer.so \
     vendor/dell/P801_NoModem/proprietary/lib/arm/libwebrtc_audio_coding.so:system/lib/arm/libwebrtc_audio_coding.so \
     vendor/dell/P801_NoModem/proprietary/lib/arm/libwebviewchromium.so:system/lib/arm/libwebviewchromium.so \
+    vendor/dell/P801_NoModem/proprietary/etc/binfmt_misc/arm_dyn:system/etc/binfmt_misc/arm_dyn \
+    vendor/dell/P801_NoModem/proprietary/etc/binfmt_misc/arm_exe:system/etc/binfmt_misc/arm_exe \
     vendor/dell/P801_NoModem/proprietary/lib/hw/audio.codec_offload.P801_NoModem.so:system/lib/hw/audio.codec_offload.P801_NoModem.so \
     vendor/dell/P801_NoModem/proprietary/lib/hw/audio.hdmi.P801_NoModem.so:system/lib/hw/audio.hdmi.P801_NoModem.so \
     vendor/dell/P801_NoModem/proprietary/lib/hw/audio.hs_usb.P801_NoModem.so:system/lib/hw/audio.hs_usb.P801_NoModem.so \
