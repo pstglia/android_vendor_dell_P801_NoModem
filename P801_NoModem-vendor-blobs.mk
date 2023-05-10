@@ -174,7 +174,6 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/lib/parameter-framework-plugins/System/libproperty-subsystem.so:system/lib/parameter-framework-plugins/System/libproperty-subsystem.so \
     vendor/dell/P801_NoModem/proprietary/usr/share/alsa/alsa.conf:system/usr/share/alsa/alsa.conf \
     vendor/dell/P801_NoModem/proprietary/bin/bd_prov:system/bin/bd_prov \
-    vendor/dell/P801_NoModem/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/dell/P801_NoModem/proprietary/etc/atomisp/00imx134.cpf:system/etc/atomisp/00imx134.cpf \
     vendor/dell/P801_NoModem/proprietary/etc/atomisp/00imx135-0-0x2-0x1.cpf:system/etc/atomisp/00imx135-0-0x2-0x1.cpf \
     vendor/dell/P801_NoModem/proprietary/etc/atomisp/00imx135-0-0x4-0.cpf:system/etc/atomisp/00imx135-0-0x4-0.cpf \
