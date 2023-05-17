@@ -241,6 +241,11 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/s3202_gff.img:system/etc/firmware/s3202_gff.img \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/s3202_ogs.img:system/etc/firmware/s3202_ogs.img \
     vendor/dell/P801_NoModem/proprietary/etc/firmware/topazsc_fw.bin:system/etc/firmware/topazsc_fw.bin \
+    vendor/dell/P801_NoModem/proprietary/etc/firmware/fmc_init_1283.2.bts:system/etc/firmware/fmc_init_1283.2.bts \
+    vendor/dell/P801_NoModem/proprietary/etc/firmware/fm_rx_init_1283.2.bts:system/etc/firmware/fm_rx_init_1283.2.bts \
+    vendor/dell/P801_NoModem/proprietary/etc/firmware/isp_fr.bin:system/etc/firmware/isp_fr.bin \
+    vendor/dell/P801_NoModem/proprietary/etc/firmware/sdio-g-mfgtest.bin:system/etc/firmware/sdio-g-mfgtest.bin \
+    vendor/dell/P801_NoModem/proprietary/etc/firmware/vpimg_es305b.bin:system/etc/firmware/vpimg_es305b.bin \
     vendor/dell/P801_NoModem/proprietary/lib/hw/gps.P801_NoModem.so:system/lib/hw/gps.P801_NoModem.so \
     vendor/dell/P801_NoModem/proprietary/bin/houdini:system/bin/houdini \
     vendor/dell/P801_NoModem/proprietary/lib/libhoudini.so:system/lib/libhoudini.so \
