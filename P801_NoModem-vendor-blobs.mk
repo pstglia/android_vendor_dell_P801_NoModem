@@ -294,4 +294,5 @@ PRODUCT_COPY_FILES += \
     vendor/dell/P801_NoModem/proprietary/lib/hw/hwcomposer.clovertrail.so:system/vendor/lib/hw/hwcomposer.clovertrail.so \
     vendor/dell/P801_NoModem/proprietary/lib/libmodem-audio-collection.so:system/vendor/lib/libmodem-audio-collection.so \
     vendor/dell/P801_NoModem/proprietary/lib/libparameter.so:system/lib/libparameter.so \
-    vendor/dell/P801_NoModem/proprietary/lib/libstlport.so:system/lib/libstlport.so
+    vendor/dell/P801_NoModem/proprietary/lib/libstlport.so:system/lib/libstlport.so \
+    vendor/dell/P801_NoModem/proprietary/bin/intel_prop:system/bin/intel_prop
